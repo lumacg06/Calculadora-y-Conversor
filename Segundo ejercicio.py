@@ -94,10 +94,9 @@ class InterfazNomina:
             vacaciones = calculadora.vacaciones(empleado.salario, empleado.dias_trabajados)
 
             subsidio_transporte = 140.606
-            
-            # Limpiar resultados anteriores
-            self.resultados_text.delete(1.0, tk.END)
-
+            if empleado.salario >= 1_000_000:
+                subsidio_transporte = 0
+                
             # Mostrar resultados
             self.resultados_text.insert(tk.END, f"Nombre: {empleado.nombre} {empleado.apellido}\n")
             self.resultados_text.insert(tk.END, f"Días Laborados: {empleado.dias_trabajados}\n")
