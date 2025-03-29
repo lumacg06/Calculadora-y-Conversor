@@ -1,0 +1,10 @@
+Nombre: luma cg
+Días Laborados: 360
+Prima: $800
+Cesantías Causadas: $800
+Intereses Cesantías: $96
+Vacaciones: $400
+Salario con Aumento: $880
+Subsidio de Transporte: $140.606
+Salario Total: $1020
+
